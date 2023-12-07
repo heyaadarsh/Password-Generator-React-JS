@@ -45,7 +45,7 @@ function App() {
       
       <div className='text-center mt-3'>
         <h2 className='mb-4 font-semibold'>PASSWORD OUTPUT</h2>
-        <input type='text' value={password} readOnly placeholder='hello' className=' bg-slate-100 text-center border-none outline-none sm:px-1 md:px-4 py-3 rounded' ref={passwordRef}/>
+        <input type='text' value={password} readOnly placeholder='hello' className=' bg-slate-100 text-center border-none outline-none sm:px-1 sm:mx-2 md:px-4 py-3 rounded' ref={passwordRef}/>
         <button className='mt-5 bg-yellow-300 px-12 py-3 rounded font-semi-bold' onClick={copyPassword}>COPY PASSWORD</button>
       </div>
       <div className='text-center mt-6'>
